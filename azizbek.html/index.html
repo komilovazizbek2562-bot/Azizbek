@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="uz">
+<head>
+    <meta charset="UTF-8" />
+    <title>English Master – Ingliz Tili Kursi</title>
+    <link rel="stylesheet" href="aziz.css" />
+</head>
+<body>
+
+    <!-- NAVBAR -->
+    <header class="navbar">
+        <div class="logo">ENGLISH MASTER</div>
+        <nav>
+            <a href="#about">Biz haqimizda</a>
+            <a href="#courses">Kurslar</a>
+            <a href="#pricing">Narxlar</a>
+            <a href="#contact">Aloqa</a>
+        </nav>
+    </header>
+
+    <!-- HERO SECTION -->
+    <section class="hero">
+        <div class="hero-text">
+            <h1>3 OYDA Ingliz Tilida Erkin Gapiring!</h1>
+            <p>Intensiv darslar • Speaking klublar • IELTS tayyorlov • 7 yillik tajribaga ega ustozlar</p>
+            <button onclick="scrollToForm()">Ro‘yxatdan o‘tish</button>
+        </div>
+    </section>
+
+    <!-- ABOUT -->
+    <section id="about" class="about">
+        <h2>Nega aynan biz?</h2>
+        <div class="about-cards">
+            <div class="card">
+                <h3>🎧 Speaking Club</h3>
+                <p>Haftasiga 2 marotaba amaliy suhbatlar.</p>
+            </div>
+
+            <div class="card">
+                <h3>🇬🇧 British Materiallar</h3>
+                <p>Cambridge & Oxford kitoblari asosida darslar.</p>
+            </div>
+
+            <div class="card">
+                <h3>⏳ Tez natija</h3>
+                <p>3 oyda sezilarli gapirish ko‘nikmasi.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- COURSES -->
+    <section id="courses" class="courses">
+        <h2>Kurs yo‘nalishlari</h2>
+        <div class="course-list">
+            <div class="course">
+                <h3>General English</h3>
+                <p>0 dan Upper-Intermediate darajagacha.</p>
+            </div>
+
+            <div class="course">
+                <h3>IELTS</h3>
+                <p>5.5 → 7.0 darajaga kafolatli tayyorlov.</p>
+            </div>
+
+            <div class="course">
+                <h3>Kids English</h3>
+                <p>Bolalar uchun maxsus metodika.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- PRICING -->
+    <section id="pricing" class="pricing">
+        <h2>Kurs narxlari</h2>
+
+        <div class="prices">
+            <div class="price-card">
+                <h3>General English</h3>
+                <p><strong>350 000 so‘m / oy</strong></p>
+            </div>
+            <div class="price-card">
+                <h3>IELTS</h3>
+                <p><strong>450 000 so‘m / oy</strong></p>
+            </div>
+            <div class="price-card">
+                <h3>Kids English</h3>
+                <p><strong>300 000 so‘m / oy</strong></p>
+            </div>
+        </div>
+    </section>
+
+    <!-- CONTACT FORM -->
+    <section id="contact" class="contact">
+        <h2>Ro‘yxatdan o‘ting</h2>
+
+        <form id="registrationForm">
+            <input type="text" placeholder="Ism" required>
+            <input type="text" placeholder="Telefon raqamingiz" required>
+            <button type="submit">Yuborish</button>
+        </form>
+
+        <p id="msg"></p>
+    </section>
+
+    <script src="app.js"></script>
+
+</body>
+</html>

@@ -1,0 +1,208 @@
+/* /* body {
+    margin: 0;
+    background: #f1f1f1;
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.quiz-container {
+    background: #fff;
+    width: 350px;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+
+h2 {
+    margin-bottom: 20px;
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+}
+
+li {
+    margin: 12px 0;
+}
+
+button {
+    width: 100%;
+    padding: 12px;
+    background: #4CAF50;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+button:hover {
+    background: #45A049;
+} */
+
+
+
+
+
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background: #f5f5f5;
+}
+
+/* NAVBAR */
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 50px;
+    background: #fff;
+    position: sticky;
+    top: 0;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+
+.navbar .logo {
+    font-size: 22px;
+    font-weight: bold;
+    color: #005eff;
+}
+
+.navbar nav a {
+    margin-left: 25px;
+    text-decoration: none;
+    color: #333;
+    font-size: 16px;
+}
+
+/* HERO */
+.hero {
+    height: 70vh;
+    background: linear-gradient(rgba(0,0,0,0.4), rgba(0,0,0,0.4)),
+        url('https://i.imgur.com/SZQ1Cju.jpg');
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    text-align: center;
+    padding: 0 20px;
+}
+
+.hero button {
+    padding: 12px 25px;
+    margin-top: 20px;
+    background: #fff;
+    color: #005eff;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+/* ABOUT */
+.about {
+    padding: 60px 20px;
+    text-align: center;
+}
+
+.about-cards {
+    display: flex;
+    justify-content: center;
+    gap: 25px;
+    margin-top: 40px;
+}
+
+.card {
+    background: white;
+    width: 250px;
+    padding: 25px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+
+/* COURSES */
+.courses {
+    padding: 50px 20px;
+    text-align: center;
+}
+
+.course-list {
+    display: flex;
+    justify-content: center;
+    gap: 25px;
+    margin-top: 30px;
+}
+
+.course {
+    background: white;
+    width: 260px;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+
+/* PRICING */
+.pricing {
+    padding: 50px 20px;
+    text-align: center;
+    background: #eef3ff;
+}
+
+.prices {
+    display: flex;
+    justify-content: center;
+    gap: 25px;
+}
+
+.price-card {
+    background: white;
+    padding: 20px;
+    width: 220px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+
+/* CONTACT */
+.contact {
+    padding: 50px 20px;
+    background: #005eff;
+    color: white;
+    text-align: center;
+}
+
+.contact form input {
+    padding: 12px;
+    width: 250px;
+    margin: 10px;
+    border: none;
+    border-radius: 5px;
+}
+
+.contact button {
+    padding: 12px 25px;
+    background: white;
+    color: #005eff;
+    border: none;
+    font-size: 16px;
+    border-radius: 5px;
+}
+
+#msg {
+    margin-top: 15px;
+    font-size: 18px;
+}
+
+/* RESPONSIVE */
+@media screen and (max-width: 768px) {
+    .about-cards,
+    .course-list,
+    .prices {
+        flex-direction: column;
+        align-items: center;
+    }
+} */
