@@ -1,1 +1,1 @@
-# Azizbek
+# dars 1
